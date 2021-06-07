@@ -1,0 +1,28 @@
+{
+    "Command": [
+        {
+            "name": "$dice",
+            "explain": "return  1 ~ 6"
+        },
+        {
+            "name": "$d",
+            "explain": "return result of dice"
+        },
+        {
+            "name": "$coin",
+            "explain": "return front or back"
+        },
+        {
+            "name": "$c",
+            "explain": "return result of coin"
+        },
+        {
+            "name": "$random",
+            "explain": "return random number 0 ~ 100"
+        },
+        {
+            "name": "$help",
+            "explain": "return help"
+        }
+    ]
+}
