@@ -4,8 +4,9 @@
   "description": "how to use bot",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "serve": "npx webpack serve --config webpack.config.debug.js",
+    "build": "npx webpack --config webpack.config.debug.js",
+    "deploy": "npx webpack --config webpack.config.debug.js"
   },
   "author": "",
   "license": "MIT",
