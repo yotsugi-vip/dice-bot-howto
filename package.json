@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "npx webpack serve --config webpack.config.debug.js",
     "build": "npx webpack --config webpack.config.debug.js",
-    "deploy": "npx webpack --config webpack.config.debug.js"
+    "deploy": "npx webpack --config webpack.config.production.js"
   },
   "author": "",
   "license": "MIT",
